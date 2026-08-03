@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "name": "download-11s-space",
+  "framework": null,
+  "cleanUrls": true
+}
