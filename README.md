@@ -31,14 +31,10 @@ vercel --prod
 域名：在 Vercel 项目 → Settings → Domains 中添加 `download.11s.space`，
 并按提示把域名解析到 `cname.vercel-dns.com`。
 
-## 部署到 GitHub Pages
+## 部署到 GitHub Pages（备用线路）
 
-```bash
-gh repo create download.11s.space --public --source . --push
-```
-
-仓库 Settings → Pages → Branch 选 `main`（根目录）。
-在域名解析商处添加 CNAME 记录：`download.11s.space → <user>.github.io`。
+仓库：https://github.com/TomShi11/download-11s-space
+Settings → Pages → Branch 选 `main`（根目录），CNAME 已配置为 `download.11s.space`。
 
 ## 发布新版本
 
