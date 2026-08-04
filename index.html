@@ -4,9 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>11s Space · 软件下载中心</title>
-  <meta name="description" content="11s.space 软件下载中心 — 提供 11s 开发的桌面软件下载，包括桌面便条 DeskNote。" />
+  <meta name="description" content="11s.space 软件下载中心 — 提供 11s 开发的桌面与安卓应用，包括桌面便条 DeskNote 与投资追踪站极投（Jitu）。" />
   <meta property="og:title" content="11s Space · 软件下载中心" />
-  <meta property="og:description" content="精致实用的桌面软件，一键下载。" />
+  <meta property="og:description" content="精致实用的桌面与安卓应用，一键下载。" />
   <meta property="og:type" content="website" />
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
   <link rel="stylesheet" href="css/style.css" />
@@ -32,9 +32,9 @@
   <main id="top">
     <!-- Hero -->
     <section class="hero">
-      <div class="hero-badge">✦ 11s 出品 · Windows 桌面软件</div>
+      <div class="hero-badge">✦ 11s 出品 · 桌面 & 安卓应用</div>
       <h1 class="hero-title">简单、精致、<span class="gradient-text">触手可及</span></h1>
-      <p class="hero-sub">精选桌面工具，一键下载安装。所有软件开源、免费、无广告。</p>
+      <p class="hero-sub">精选桌面工具与安卓应用，一键下载安装。全部免费、无广告。</p>
       <div class="hero-actions">
         <a href="#apps" class="btn btn-primary">
           <span class="btn-icon">↓</span> 浏览软件
@@ -77,6 +77,39 @@
           </div>
         </div>
       </div>
+
+      <div class="app-card glass">
+        <div class="app-card-left">
+          <img src="assets/jitu-icon-256.png" alt="极投" class="app-icon" />
+        </div>
+        <div class="app-card-body">
+          <div class="app-meta">
+            <h2>极投 <span class="app-en">Jitu</span></h2>
+            <span class="tag tag-blue">Android</span>
+            <span class="tag">v1.0.0</span>
+            <span class="tag tag-free">免费</span>
+          </div>
+          <p class="app-desc">
+            个人投资追踪应用：以 A股 ETF 与个股为核心，兼顾港股、美股指数与加密资产，
+            提供实时行情、K线分析、市场温度计、风险体检、收益归因与 AI 深度分析；
+            登录后数据云端同步，多设备保持登录状态。安卓原生封装，安装即用。
+          </p>
+          <div class="app-features">
+            <span>✔ 实时行情</span>
+            <span>✔ K线分析</span>
+            <span>✔ 市场温度计</span>
+            <span>✔ 风险体检</span>
+            <span>✔ AI 分析</span>
+            <span>✔ 云同步</span>
+          </div>
+          <div class="app-actions">
+            <a href="downloads/Jitu-Android-1.0.0.apk" class="btn btn-primary btn-download" data-app="极投">
+              <span class="btn-icon">↓</span> 下载安卓版
+            </a>
+            <a href="#downloads" class="btn btn-ghost btn-sm">校验值 / 版本</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Download table -->
@@ -106,6 +139,19 @@
           </span>
         </div>
 
+        <div class="dl-row">
+          <span class="dl-name">
+            <img src="assets/jitu-icon-64.png" alt="" class="dl-icon" />
+            极投 Jitu
+          </span>
+          <span>1.0.0</span>
+          <span><span class="pill">Android 7.0+</span></span>
+          <span data-size="Jitu-Android-1.0.0.apk">—</span>
+          <span>
+            <a href="downloads/Jitu-Android-1.0.0.apk" class="btn btn-primary btn-sm btn-download" data-app="极投">下载</a>
+          </span>
+        </div>
+
         <div class="dl-row dl-empty">
           <span class="dl-more">更多软件正在路上，敬请期待 ✨</span>
         </div>
@@ -113,7 +159,14 @@
 
       <details class="checksum glass">
         <summary>安装包 SHA-256 校验值</summary>
-        <code id="checksum-line">4eb5f4b382c66229b7b5d9eda5a7efd0774a3e21556f6756c08121951a25a46b</code>
+        <p class="checksum-item">
+          <span>DeskNote-Setup-1.2.0.exe</span>
+          <code>4eb5f4b382c66229b7b5d9eda5a7efd0774a3e21556f6756c08121951a25a46b</code>
+        </p>
+        <p class="checksum-item">
+          <span>Jitu-Android-1.0.0.apk</span>
+          <code>4A5477BAF782152BEC0F710587480BABC007D545521FDDA65CFC5A8C5028DFC0</code>
+        </p>
       </details>
     </section>
 
