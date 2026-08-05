@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>11s Space · 软件下载中心</title>
-  <meta name="description" content="11s.space 软件下载中心 — 提供 11s 开发的桌面与安卓应用，包括桌面便条 DeskNote 与投资追踪站极投（Jitu）。" />
-  <meta property="og:title" content="11s Space · 软件下载中心" />
-  <meta property="og:description" content="精致实用的桌面与安卓应用，一键下载。" />
+  <title>11s Space · 软件集合站</title>
+  <meta name="description" content="11s.space 软件集合站 — TomShi11 开发的桌面与移动应用合集，包括极投 (Jitou) 投资追踪、DeskNote 桌面便签等。免费、精致、实用。" />
+  <meta property="og:title" content="11s Space · 软件集合站" />
+  <meta property="og:description" content="TomShi11 开发的桌面与移动应用合集，免费下载。" />
   <meta property="og:type" content="website" />
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
   <link rel="stylesheet" href="css/style.css" />
@@ -22,138 +22,148 @@
       <span class="brand-name">11s<span class="brand-dot">.</span>space</span>
     </a>
     <nav class="nav-links">
-      <a href="#apps">软件</a>
-      <a href="#features">特性</a>
+      <a href="#apps">应用</a>
+      <a href="#downloads">下载</a>
       <a href="#about">关于</a>
-      <a class="nav-github" href="https://github.com/TomShi11/download-11s-space" target="_blank" rel="noopener">GitHub ↗</a>
+      <a class="nav-github" href="https://github.com/TomShi11" target="_blank" rel="noopener">GitHub →</a>
     </nav>
   </header>
 
   <main id="top">
     <!-- Hero -->
     <section class="hero">
-      <div class="hero-badge">✦ 11s 出品 · 桌面 & 安卓应用</div>
-      <h1 class="hero-title">简单、精致、<span class="gradient-text">触手可及</span></h1>
-      <p class="hero-sub">精选桌面工具与安卓应用，一键下载安装。全部免费、无广告。</p>
+      <div class="hero-badge">✦ TomShi11 的软件集合站</div>
+      <h1 class="hero-title">我在做的<span class="gradient-text">每一款软件</span></h1>
+      <p class="hero-sub">从投资追踪到桌面效率，收录我开发的桌面与移动应用。全部免费、无广告、持续更新。</p>
       <div class="hero-actions">
         <a href="#apps" class="btn btn-primary">
-          <span class="btn-icon">↓</span> 浏览软件
+          <span class="btn-icon">↓</span> 浏览应用
         </a>
-        <a href="#downloads" class="btn btn-ghost">直接去下载</a>
+        <a href="https://github.com/TomShi11" target="_blank" class="btn btn-ghost" rel="noopener">GitHub →</a>
       </div>
     </section>
 
-    <!-- Featured app -->
-    <section class="featured" id="apps">
-      <div class="app-card glass">
-        <div class="app-card-left">
-          <img src="assets/icon-256.png" alt="DeskNote 桌面便条" class="app-icon" />
+    <!-- Apps Collection -->
+    <section class="apps-grid" id="apps">
+      <h2 class="section-title">应用合集</h2>
+      <p class="section-sub">每一款都独立打磨，按需取用。</p>
+
+      <div class="app-grid-row">
+        <!-- 极投 Jitou -->
+        <div class="app-card glass compact">
+          <div class="app-card-left">
+            <img src="assets/jitou-icon-256.png" alt="极投" class="app-icon" />
+          </div>
+          <div class="app-card-body">
+            <div class="app-meta">
+              <h2>极投 <span class="app-en">Jitou</span></h2>
+              <span class="tag tag-blue">Android</span>
+              <span class="tag">v2.0</span>
+              <span class="tag tag-free">免费</span>
+            </div>
+            <p class="app-desc">
+              个人投资追踪应用：以 A 股 ETF 与个股为核心，兼顾港股、美股指数与加密资产，
+              提供实时行情、K 线分析、市场温度计、风险体检、收益归因与 AI 深度分析。
+              Material Design 原生体验，手机操作顺手。
+            </p>
+            <div class="app-features">
+              <span>✦ 实时行情</span>
+              <span>✦ K线分析</span>
+              <span>✦ 市场温度计</span>
+              <span>✦ 风险体检</span>
+              <span>✦ 收益归因</span>
+              <span>✦ AI 分析</span>
+            </div>
+            <div class="app-actions">
+              <a href="downloads/Jitou-Android-2.0.apk" class="btn btn-primary btn-sm btn-download" data-app="极投">
+                <span class="btn-icon">↓</span> 下载 APK
+              </a>
+              <a href="https://invest.11s.space" target="_blank" class="btn btn-ghost btn-sm" rel="noopener">Web 版 →</a>
+            </div>
+          </div>
         </div>
-        <div class="app-card-body">
-          <div class="app-meta">
-            <h2>桌面便条 <span class="app-en">DeskNote</span></h2>
-            <span class="tag tag-green">Windows</span>
-            <span class="tag">v1.2.0</span>
-            <span class="tag tag-free">免费</span>
+
+        <!-- DeskNote -->
+        <div class="app-card glass compact">
+          <div class="app-card-left">
+            <img src="assets/icon-256.png" alt="DeskNote 桌面便签" class="app-icon" />
           </div>
-          <p class="app-desc">
-            常驻桌面的便签与待办工具：双击即写、随手记录。内置三种可切换的现代化风格
-            （便签纸 / 液态玻璃 / 中式水墨），支持多套字体、全局换肤、拖动缩放、
-            待办清单与开机自启。轻量纯净，数据仅存本地。
-          </p>
-          <div class="app-features">
-            <span>✓ 随手记录</span>
-            <span>✓ 待办清单</span>
-            <span>✓ 拖动 & 缩放</span>
-            <span>✓ 三种风格</span>
-            <span>✓ 多字体</span>
-            <span>✓ 开机自启</span>
-          </div>
-          <div class="app-actions">
-            <a href="downloads/DeskNote-Setup-1.2.0.exe" class="btn btn-primary btn-download" data-app="DeskNote">
-              <span class="btn-icon">↓</span> 下载安装包
-            </a>
-            <a href="#downloads" class="btn btn-ghost btn-sm">其他版本 / 校验</a>
+          <div class="app-card-body">
+            <div class="app-meta">
+              <h2>桌面便签 <span class="app-en">DeskNote</span></h2>
+              <span class="tag tag-green">Windows</span>
+              <span class="tag">v1.2.0</span>
+              <span class="tag tag-free">免费</span>
+            </div>
+            <p class="app-desc">
+              常驻桌面的便签与待办工具：双击即写、随手记录。内置三种可切换的现代化风格，
+              支持多字体、全局换肤、拖动缩放、待办清单与开机自启。轻量纯静，数据仅存本地。
+            </p>
+            <div class="app-features">
+              <span>✦ 随手记录</span>
+              <span>✦ 待办清单</span>
+              <span>✦ 拖动 & 缩放</span>
+              <span>✦ 三种风格</span>
+              <span>✦ 多字体</span>
+              <span>✦ 开机自启</span>
+            </div>
+            <div class="app-actions">
+              <a href="downloads/DeskNote-Setup-1.2.0.exe" class="btn btn-primary btn-sm btn-download" data-app="DeskNote">
+                <span class="btn-icon">↓</span> 下载安装包
+              </a>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="app-card glass">
-        <div class="app-card-left">
-          <img src="assets/jitu-icon-256.png" alt="极投" class="app-icon" />
-        </div>
-        <div class="app-card-body">
-          <div class="app-meta">
-            <h2>极投 <span class="app-en">Jitu</span></h2>
-            <span class="tag tag-blue">Android</span>
-            <span class="tag">v1.0.0</span>
-            <span class="tag tag-free">免费</span>
-          </div>
-          <p class="app-desc">
-            个人投资追踪应用：以 A股 ETF 与个股为核心，兼顾港股、美股指数与加密资产，
-            提供实时行情、K线分析、市场温度计、风险体检、收益归因与 AI 深度分析；
-            登录后数据云端同步，多设备保持登录状态。安卓原生封装，安装即用。
-          </p>
-          <div class="app-features">
-            <span>✔ 实时行情</span>
-            <span>✔ K线分析</span>
-            <span>✔ 市场温度计</span>
-            <span>✔ 风险体检</span>
-            <span>✔ AI 分析</span>
-            <span>✔ 云同步</span>
-          </div>
-          <div class="app-actions">
-            <a href="downloads/Jitu-Android-1.0.0.apk" class="btn btn-primary btn-download" data-app="极投">
-              <span class="btn-icon">↓</span> 下载安卓版
-            </a>
-            <a href="#downloads" class="btn btn-ghost btn-sm">校验值 / 版本</a>
-          </div>
+      <!-- Coming soon -->
+      <div class="app-grid-row" style="margin-top:18px;">
+        <div class="app-card glass soon">
+          <div class="soon-icon">🚧</div>
+          <h3>更多应用开发中</h3>
+          <p>新的桌面与移动软件正在路上，敬请期待。</p>
         </div>
       </div>
     </section>
 
-    <!-- Download table -->
+    <!-- Downloads Table -->
     <section class="downloads" id="downloads">
-      <h2 class="section-title">下载中心</h2>
-      <p class="section-sub">安装包均托管于 GitHub Releases，由 Vercel 全球加速分发。</p>
-
+      <h2 class="section-title">全部下载</h2>
+      <p class="section-sub">安装包与 SHA-256 校验值，确保文件完整安全。</p>
       <div class="dl-table glass">
         <div class="dl-row dl-head">
-          <span>软件</span>
+          <span>应用</span>
           <span>版本</span>
           <span>平台</span>
           <span>大小</span>
           <span>操作</span>
         </div>
-
+        <div class="dl-row">
+          <span class="dl-name">
+            <img src="assets/jitou-icon-64.png" alt="" class="dl-icon" />
+            极投 Jitou
+          </span>
+          <span>2.0</span>
+          <span><span class="pill">Android 7.0+</span></span>
+          <span data-size="Jitou-Android-2.0.apk">—</span>
+          <span>
+            <a href="downloads/Jitou-Android-2.0.apk" class="btn btn-primary btn-sm btn-download" data-app="极投">下载</a>
+          </span>
+        </div>
         <div class="dl-row">
           <span class="dl-name">
             <img src="assets/icon-64.png" alt="" class="dl-icon" />
-            桌面便条 DeskNote
+            桌面便签 DeskNote
           </span>
           <span>1.2.0</span>
-          <span><span class="pill">Windows 10/11</span></span>
+          <span><span class="pill">Windows 10+</span></span>
           <span data-size="DeskNote-Setup-1.2.0.exe">—</span>
           <span>
             <a href="downloads/DeskNote-Setup-1.2.0.exe" class="btn btn-primary btn-sm btn-download" data-app="DeskNote">下载</a>
           </span>
         </div>
-
-        <div class="dl-row">
-          <span class="dl-name">
-            <img src="assets/jitu-icon-64.png" alt="" class="dl-icon" />
-            极投 Jitu
-          </span>
-          <span>1.0.0</span>
-          <span><span class="pill">Android 7.0+</span></span>
-          <span data-size="Jitu-Android-1.0.0.apk">—</span>
-          <span>
-            <a href="downloads/Jitu-Android-1.0.0.apk" class="btn btn-primary btn-sm btn-download" data-app="极投">下载</a>
-          </span>
-        </div>
-
         <div class="dl-row dl-empty">
-          <span class="dl-more">更多软件正在路上，敬请期待 ✨</span>
+          <span class="dl-more">更多应用正在开发中，敬请期待 ✨</span>
         </div>
       </div>
 
@@ -164,52 +174,13 @@
           <code>4eb5f4b382c66229b7b5d9eda5a7efd0774a3e21556f6756c08121951a25a46b</code>
         </p>
         <p class="checksum-item">
-          <span>Jitu-Android-1.0.0.apk</span>
-          <code>4A5477BAF782152BEC0F710587480BABC007D545521FDDA65CFC5A8C5028DFC0</code>
+          <span>Jitou-Android-2.0.apk</span>
+          <code>C22D22812F7592A3B5855A3D296C010A1F2C3ECE83C513B1B34FEF0E5E61085F</code>
         </p>
       </details>
     </section>
 
-    <!-- Screenshot -->
-    <section class="screenshots" id="preview">
-      <h2 class="section-title">界面预览</h2>
-      <p class="section-sub">真实运行截图：便签纸 / 液态玻璃 / 中式水墨三种风格，同一应用全局切换。</p>
-      <div class="shot-frame glass">
-        <img src="assets/screenshot-desktop.png" alt="DeskNote 桌面便条界面预览" class="shot-img" loading="lazy" />
-      </div>
-      <div class="shot-frame glass" style="margin-top: 16px;">
-        <img src="assets/screenshot-menu.png" alt="DeskNote 弹出菜单" class="shot-img" loading="lazy" />
-      </div>
-    </section>
-
-    <!-- Features -->
-    <section class="features" id="features">
-      <h2 class="section-title">为什么选择 11s 的软件</h2>
-      <div class="feature-grid">
-        <div class="feature-card glass">
-          <div class="feature-icon">🎯</div>
-          <h3>专注一件事</h3>
-          <p>每个工具只解决一个痛点，没有臃肿功能与弹窗广告。</p>
-        </div>
-        <div class="feature-card glass">
-          <div class="feature-icon">🎨</div>
-          <h3>精致外观</h3>
-          <p>统一的设计语言，圆角、留白、细腻动效，赏心悦目。</p>
-        </div>
-        <div class="feature-card glass">
-          <div class="feature-icon">🛡</div>
-          <h3>隐私安全</h3>
-          <p>数据仅保存在本地，开源代码可审计，无网络上传。</p>
-        </div>
-        <div class="feature-card glass">
-          <div class="feature-icon">🚀</div>
-          <h3>开箱即用</h3>
-          <p>绿色安装包，下一步即完成，全中文界面零门槛。</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- About / FAQ -->
+    <!-- About -->
     <section class="about" id="about">
       <h2 class="section-title">关于本站</h2>
       <div class="about-grid">
@@ -218,11 +189,11 @@
           <p>源代码托管于 GitHub，页面与安装包通过 Vercel 全球 CDN 分发，下载快速稳定。</p>
         </div>
         <div class="about-card glass">
-          <h3>🛠 遇到问题？</h3>
+          <h3>🛡️ 安全提示</h3>
           <p>Windows SmartScreen 提示时，点击「更多信息 → 仍要运行」即可；安装包数字签名正在申请中。</p>
         </div>
         <div class="about-card glass">
-          <h3>💡 意见反馈</h3>
+          <h3>💬 意见反馈</h3>
           <p>欢迎在 GitHub 提交 Issue 或建议，你的每一条反馈都会让软件更好。</p>
         </div>
       </div>
@@ -237,7 +208,7 @@
         <span class="sep">·</span>
         <a href="https://vercel.com" target="_blank" rel="noopener">Powered by Vercel</a>
         <span class="sep">·</span>
-        <a href="https://github.com/TomShi11/download-11s-space" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/TomShi11" target="_blank" rel="noopener">GitHub</a>
       </span>
     </div>
   </footer>
